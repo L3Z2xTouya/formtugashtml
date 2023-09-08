@@ -3,56 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Form-Register | Touya</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <table class="form-register">
         <form action="">
-            <div class="nama">
-                <label for="nama">Nama :</label>
-                <input type="text" id="nama">
-            </div>
-            <div class="tanggal">
-                <label for="tanggal">Tanggal Lahir :</label>
-                <input type="date" name="" id="tanggal">
-            </div>
-            <div class="kelamin">
-                <label for="tanggal">Jenis Kelamin :</label>
-                <input type="radio" name="laki-laki" id="laki-laki">laki-laki
-                <input type="radio" name="perempuan" id="perempuan">perempuan
-            </div>
-            <div class="alamat">
-                <label for="alamat">Alamat :</label>
-                <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
-            </div>
-            <div class="email">
-                <label for="email">Email :</label>
-                <input type="text" name="email" id="email">
-            </div>
-            <div class="no">
-                <label for="no">No HP :</label>
-                <input type="text" name="no" id="no">
-            </div>
-            <div class="kota">
-                <label for="kota">Kota :</label>
-                <select name="kota" id="kota">
-                    <option value="">--Pilih Kota--</option>
-                    <option value="Blitar">Blitar</option>
-                    <option value="Malang">Malang</option>
-                    <option value="Kediri">Kediri</option>
-                    <option value="Tulungagung">Tulungagung</option>
-                </select>
-            </div>
-            <div class="igr">
-                <input type="checkbox" name="" id="">Saya Menyetujui peraturan yang ada
-            </div>
-            <div class="last">
-                <input type="button" value="Simpan">
-                <input type="button" value="Batal">
-            </div>
-            <p>Sudah punya akun? <a href="index.html">Login</a></p>
+            <tr class="title">
+                <td colspan="3"><h1>REGISTER</h1></td>
+            </tr>
+            <tr>
+                <td><label for="nama">Nama </label></td>
+                <td>:</td>
+                <td><input type="text" id="nama" required></td>
+            </tr>
+            <tr class="tanggal">
+                <td><label for="tanggal">Tanggal Lahir</label></td>
+                <td>:</td>
+                <td><input type="date" name="tanggal" id="tanggal" required></td>
+            </tr>
+            <tr class="kelamin">
+                <td><label for="kelamin">Jenis Kelamin</label></td>
+                <td>:</td>
+                <td colspan="1" ><input type="radio" name="laki-laki" id="laki-laki">Laki-Laki<input type="radio" name="perempuan" id="perempuan">Perempuan</td>
+            </tr>
+            <tr class="alamat">
+                <td><label for="alamat">Alamat</label></td>
+                <td>:</td>
+                <td><textarea name="alamat" id="alamat" cols="30" rows="10" required></textarea></td>
+            </tr>
+            <tr class="email">
+                <td><label for="email">Email</label></td>
+                <td>:</td>
+                <td><input type="text" name="email" id="email" required></td>
+            </tr>
+            <tr class="no">
+                <td><label for="no">No HP</label></td>
+                <td>:</td>
+                <td><input type="text" name="no" id="no" required></td>
+            </tr>
+            <tr class="kota">
+                <td><label for="kota">Kota</label></td>
+                <td>:</td>
+                <td>
+                    <select name="kota" id="kota" required>
+                        <option value="">----Pilih Kota----</option>
+                        <option value="Blitar">Blitar</option>
+                        <option value="Malang">Malang</option>
+                        <option value="Kediri">Kediri</option>
+                        <option value="Tulungagung">Tulungagung</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="checkbox" required>Saya Menyetujui peraturan yang ada</td>
+            </tr>
+            <tr class="last">
+                <td colspan="3">
+                    <button type="submit">Simpan</button>
+                    <button type="submit">Batal</button>
+                    <div class="login-register">
+                        <p>Sudah punya akun? <a href="login.html">Login</a></p>
+                    </div>
+                </td>
+            </tr>
         </form>
-    </div>
+    </table>
 </body>
 </html>

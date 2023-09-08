@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', sans-serif;
+}
+
+body{
+    background: url(img/1316658.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgba(97, 4, 69, 0.851);
+}
+
+.login-container input{
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #720050;
+    border-radius: 5px
+}
+.login-container button{
+    background-color: #d60096;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-container button:hover{
+    background-color: #720050;
+}
+
+@media (max-width: 400px) {
+    .login-container{
+        width: 80%;
+    }
+}
+
+/* V Lama */
+
+/* .form-login{
+    position: fixed;
+    width: 500px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(235, 235, 235, 0.719);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgb(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.form-register{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 600px;
+    /* text-align: center; */
+}
+.form-register input, .form-register select{
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #720050;
+    border-radius: 5px;
+}
+.form-register select, .last{
+    text-align: center;
+}
+.form-register button{
+    background-color: #d60096;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-register button:hover{
+    background-color: #720050;
+}
+.kelamin input{
+    width: 20%;
+}
+
+/* .title{
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+} */
+
+.title h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgba(97, 4, 69, 0.851);
+}
+.last{
+    margin: 15px;
+}
+.login-register{
+    font-size: .9em;
+    color: #720050;
+    text-align: center;
+    font-weight: 500;
+    margin: 15px 0 10px;
+}
+
+.login-register p a{
+    color:#720050;
+    text-decoration: none;
+    font-weight: 500;
+}
+.login-register p a:hover{
+    text-decoration: underline;
+}
