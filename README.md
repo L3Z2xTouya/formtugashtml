@@ -1,5 +1,5 @@
 # formtugashtml
-##Desain Ui/Ux Web portofolio
+# Desain Ui/Ux Web portofolio
 
 ![View On Browser](https://i.postimg.cc/xd0tLJk5/1.png)
 ![View On Browser](https://i.postimg.cc/qRqwZPxC/2.png)
