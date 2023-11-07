@@ -1,4 +1,12 @@
 # formtugashtml
+## VIEW WEB
+Berikut link :
+https://l3z2xtouya.github.io/formtugashtml/
+
+Username : admin
+
+Password : admin
+
 # Desain Ui/Ux Web portofolio
 
 ![View On Browser](https://i.postimg.cc/xd0tLJk5/1.png)
