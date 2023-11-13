@@ -20,11 +20,15 @@
         <a href="../img/Fu Hua.jpg"><img src="../img/Fu Hua.jpg" width="50px" alt=""></a>
         <p>Touya<span class="fcs">Dev</span></p>
       </div>
-      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
+      <div class="hamburger-menu">
+        <button id="hamburger" class="hmbgr">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav" id="nav-menu">
           <li class="nav-item">
             <a class="nav-link" href="#home">Home</a>
           </li>
@@ -41,17 +45,6 @@
       </div>
     </div>
   </nav>
-
-  <!-- <nav>
-    <div class="head">
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Project</li>
-        <li>Contact me</li>
-      </ul>
-    </div>
-  </nav> -->
   <!-- Akhir Navbar -->
 
   <!-- Jumbotron -->
@@ -59,9 +52,6 @@
     <div class="jumb">
       <div class="aku" data-aos="fade-right" data-aos-duration="600">
         <img src="../img/pp.png" alt="">
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-          <path fill="#112B7E" d="M56.7,-12.5C66.1,10.5,61.3,44.1,41.7,58.6C22.2,73,-12,68.3,-35.7,50.7C-59.3,33.2,-72.4,2.7,-64.7,-18C-57,-38.7,-28.5,-49.6,-2.4,-48.8C23.6,-48,47.3,-35.5,56.7,-12.5Z" transform="translate(100 100)" />
-        </svg>
       </div>
       <div class="oke" data-aos="fade-left" data-aos-duration="600">
         <h3 class="jumbotron">
@@ -172,13 +162,14 @@
   <!-- Footer -->
   <footer>
     <div class="footer-copyright">
-      <p class="copyright">Copyright By<a href="https://tegardwia.blogspot.com/" class="hlg">Tegar-Dwi-Arbiantoro</a> 2023</p>
+      <p class="copyright">Copyright By<a href="https://tegardwia.blogspot.com/" class="side">Tegar-Dwi-Arbiantoro</a> 2023</p>
     </div>
   </footer>
   <a href="#" class="to-top" id="to-top"><i class="fa-solid fa-chevron-up"></i></a>
   <!-- Akhir Footer -->
 
   <!-- JavaScript -->
+  <script src="../index.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
