@@ -38,6 +38,7 @@ nav{
   display: block;
   background-color: rgba(0, 0, 0, 0.5);
   position: sticky;
+  backdrop-filter: blur(10px);
   top: 0;
   height: 60px;
   width: 100%;
@@ -153,7 +154,7 @@ section.ichi{
   font-size: 25px;
   color: #ffffff;
   /* border: 1px solid salmon; */
-  padding: 50px;
+  /* padding: 50px; */
 }
 .jumbotron{
   font-weight: 800;
@@ -201,11 +202,15 @@ section.ni{
 }
 .about{
   width: inherit;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   /* border: 1px solid rgb(0, 255, 21); */
+}
+.about article{
+  margin-bottom: 50px;
 }
 .about article .about-head{
   /* border: 1px solid green; */
@@ -232,8 +237,45 @@ section.ni{
   color: #2BE4D5;
   font-weight: 600;
 }
-
-/* PROJECT */
+.sosial-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.sosial-link .button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 15px;
+  border-radius: 9px;
+  cursor: pointer;
+  background-color: #384355;
+  transition: all 0.5s ease;
+  overflow: hidden;
+  text-decoration: none;
+}
+.sosial-link .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 9px;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+.sosial-link .button:hover .icon {
+  background-color: #2BE4D5;
+}
+.sosial-link .button:hover .icon i {
+  color: #0f172a;
+}
+.sosial-link .button .icon i {
+  font-size: 35px;
+  line-height: 60px;
+  color: #2BE4D5;
+}
+/*--------------- PROJECT --------------- */
 
 section.san{
   padding-top: 3em;
@@ -604,10 +646,51 @@ footer .footer-copyright .copyright {
   section.ni{
     display: flex;
   }
-  .ni .about article {
+  .ni article{
     width: 100%;
+  }
+  .ni .about{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ni .about article .about-content {
+    width: 90%;
     padding: 5px;
     font-size: 17px;
+  }
+  .sosial-link .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    margin: 0 8px;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: #384355;
+    /* box-shadow: 0 10px 10px rgba(250, 246, 246, 0.1); */
+    transition: all 0.5s ease;
+    overflow: hidden;
+    text-decoration: none;
+  }
+
+  .sosial-link .button .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* padding: 10px 10px 10px 10px; */
+  }
+
+  .sosial-link .button .icon i {
+      font-size: 25px;
+      text-align: center;
+  }
+
+  .sosial-link .button:hover{
+      width: 35px;
+      background-color: #22b9ad;
   }
 
 
