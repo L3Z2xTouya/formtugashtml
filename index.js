@@ -30,3 +30,9 @@ window.onscroll = function() {
         toTop.classList.add('hidden');
     }
 }
+const mengetik = new Typed(".typing",{
+    strings: ["Network Engineer", "FrontEnd Web Developer"],
+    typeSpeed: 120,
+    backSpeed: 45,
+    loop: true,
+});

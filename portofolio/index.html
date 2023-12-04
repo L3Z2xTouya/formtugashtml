@@ -8,7 +8,7 @@
   <title>Tegar Dwi A || About Me</title>
   <link rel="shortcut icon" href="../img/Fu Hua.jpg" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
@@ -55,7 +55,7 @@
       </div>
       <div class="oke">
         <h3 class="jumbotron" data-aos="fade-left" data-aos-duration="400">
-          <span class="fokus">Hi</span> i'm
+          <span class="fokus">Hi</span> i'm <span class="typing"></span>
         </h3>
         <h1 class="jumbotron" data-aos="fade-left" data-aos-duration="600">
           <span class="fokus">Tegar Dwi</span> Arbiantoro
@@ -84,7 +84,7 @@
             Perkenalkan nama saya <span class="abt-fcs">Tegar Dwi Arbiantoro</span> biasa dipanggil <span class="abt-fcs">Tegar.</span>
           </p>
           <span class="teng">
-            Lahir 05 Maret 2006 di Blitar, Sekarang Menempuh pendidikan di <span class="abt-fcs">SMKN 1 Nglegok.</span>
+            Tahun ini saya berumur 18thn, Sekarang Menempuh pendidikan di <span class="abt-fcs">SMKN 1 Nglegok.</span>
           </span>
           <p class="dua">
             Saya terinspirasi oleh <span class="abt-fcs">teknologi</span> dan ingin terlibat di dalamnya, saya juga senang belajar dari <span class="abt-fcs">pengalaman dan kesalahan.</span>
@@ -162,7 +162,7 @@
 
           <label for="message" class="label">Message</label>
           <textarea type="text" id="message" cols="30" rows="10" class="message"></textarea>
-          <a href="#" class="submit">SUBMIT</a>
+          <a href="#" class="submit"><i class="fa-solid fa-paper-plane"></i></a>
         </div>
       </article>
     </div>
@@ -193,6 +193,12 @@
     AOS.init({
       once: true,
     });
+    // const ketik = new Typed(".typing",{
+    //   strings: ["Network Engineer", "FrontEnd Web Developer"],
+    //   typeSpeed: 150,
+    //   backSpeed: 50,
+    //   loop: true,
+    // });
   </script>
 </body>
 </html>

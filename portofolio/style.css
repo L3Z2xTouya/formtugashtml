@@ -29,7 +29,6 @@ html {
 }
 body{
   width: 100%;
-  /* height: 600vh; */
   background-color: #473e3e;
   overflow-x: hidden;
   color: rgb(255, 255, 255);
@@ -71,6 +70,7 @@ section{
 }
 .gambar span.fcs{
   color: #2BE4D5;
+  list-style-type: none;
 }
 .navbar-brand{
   display: flex;
@@ -108,6 +108,10 @@ section.ichi{
   width: 100%;
   height: 100vh;
   display: flex;
+  background: url(../img/bg-body.png);
+  background-position: center;
+  transform: translateY(-50px);
+  background-size: cover;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -145,6 +149,7 @@ section.ichi{
   z-index: 0;
 }
 .oke{
+  margin-left: 10px;
   width: 70%;
   height: 70%;
   display: flex;
@@ -161,6 +166,46 @@ section.ichi{
   font-family: sans-serif;
   margin-top: 15px;
 }
+.typing{
+  color: #2BE4D5;
+}
+/* .text-meneng{
+  font-family: "Poppins", sans-serif;
+}
+.text-mlaku{
+  overflow: hidden;
+}
+.text-mlaku li{
+  list-style-type: none;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide{
+  100%{
+    top: -360px;
+  }
+}
+.text-mlaku li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.text-mlaku li span::after{
+  position: absolute;
+  content: "";
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-left: 2px solid #0f172a;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing{
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+} */
 .fokus{
   color: #2BE4D5;
 }
