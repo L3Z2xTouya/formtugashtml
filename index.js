@@ -31,7 +31,7 @@ window.onscroll = function() {
     }
 }
 const mengetik = new Typed(".typing",{
-    strings: ["Network Engineer", "FrontEnd Web Developer"],
+    strings: ["Network Engineer", "FrontEnd Web Developer", "Desainer Poster Canva"],
     typeSpeed: 120,
     backSpeed: 45,
     loop: true,
