@@ -670,6 +670,11 @@ footer .footer-copyright .copyright {
     letter-spacing: 2px;
     font-family: "Poppins", sans-serif;
   }
+  section.ichi{
+    background: url(../img/Pergabutan_gaje_hp.png);
+    background-position: center;
+    background-size: cover;
+  }
   .jumb{
     height: 100%;
     display: flex;
